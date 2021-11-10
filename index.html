@@ -18,36 +18,18 @@
   <body>
     <div class="main-container">
       <h1 class="title">TO-DO LIST</h1>
-      <form id="addForm" class="search-container">
+      <div id="addForm" class="search-container">
         <input
           id="itemInput"
           type="text"
           placeholder="what do you want to do"
         />
         <button id="addBtn">ADD</button>
-      </form>
+      </div>
       <div class="list-container">
-        <ul id="list">
-          <li>
-            <p>buy some stuff</p>
-            <span class="delete fa fa-trash fa-2x fa-align-center "
-              >delete</span
-            >
-          </li>
-          <li>
-            <p>buy some stuff</p>
-            <span class="delete fa fa-trash fa-2x fa-align-center "
-              >delete</span
-            >
-          </li>
-          <li>
-            <p>buy some stuff</p>
-            <span class="delete fa fa-trash fa-2x fa-align-center "
-              >delete</span
-            >
-          </li>
-        </ul>
+        <ul id="list"></ul>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
